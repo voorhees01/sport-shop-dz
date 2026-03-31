@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Boutique Sport Algérie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🏆 Boutique Multi-Sport DZ</h1>
+<p>Commande rapide | Paiement à la livraison</p>
+
+<div class="products">
+
+  <div class="product">
+    <h2>⚽ Ballon Football</h2>
+    <p>3000 DA</p>
+    <button onclick="orderProduct('Ballon Football - 3000 DA')">Commander</button>
+  </div>
+
+  <div class="product">
+    <h2>🏀 Ballon Basket</h2>
+    <p>3500 DA</p>
+    <button onclick="orderProduct('Ballon Basket - 3500 DA')">Commander</button>
+  </div>
+
+  <div class="product">
+    <h2>🎾 Raquette Tennis</h2>
+    <p>8000 DA</p>
+    <button onclick="orderProduct('Raquette Tennis - 8000 DA')">Commander</button>
+  </div>
+
+</div>
+
+<!-- Order Form -->
+<div id="orderForm" class="hidden">
+  <h2>📦 Passer commande</h2>
+
+  <input type="text" id="name" placeholder="Prénom"><br>
+  <input type="text" id="surname" placeholder="Nom"><br>
+  <input type="text" id="phone" placeholder="Numéro (05XXXXXXXX)"><br>
+
+  <button onclick="submitOrder()">Envoyer via WhatsApp</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

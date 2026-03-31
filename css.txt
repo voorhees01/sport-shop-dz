@@ -1,0 +1,47 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #f2f2f2;
+}
+
+h1 {
+  color: #006233;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product {
+  background: white;
+  padding: 20px;
+  width: 220px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+  padding: 10px;
+  background: #25D366;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+#orderForm {
+  margin-top: 30px;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+  width: 200px;
+}
